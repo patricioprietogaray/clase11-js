@@ -227,6 +227,7 @@ console.log(estudiantesNorte);
 console.log(estudiantesOriginal);
 estudiantesSur.shift();
 console.log(estudiantesSur);
+console.log(estudiantesOriginal);
 
 // UNA BUENA PRACTICA ES DUPLICAR LOS ARRAYS
 
