@@ -51,7 +51,7 @@ console.log(`Elimino a juan (el primero)`);
 //     return arrayNuevo;
 // };
 
-const delFirstElement = arrayArg => [...arrayArg.slice(1)];
+const delFirstElement = arrayArg => arrayArg.slice(1);
 
 const sinElPrimerElemento = delFirstElement(nombres);
 console.log(sinElPrimerElemento);
@@ -73,7 +73,9 @@ console.log(`Elimino a sebastian (el último)`);
 //     return arrayNuevo;
 // };
 
-const delLastElement = arrayArg => [...arrayArg.slice(0,-1)];
+const delLastElement = arrayArg => arrayArg.slice(0,-1);
 
 const sinElUltimoElemento = delLastElement(nombres);
 console.log(sinElUltimoElemento);
+
+////////
