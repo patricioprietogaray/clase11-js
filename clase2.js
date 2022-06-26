@@ -265,3 +265,11 @@ console.log(`estudiante original ${estudiantesOriginal}`);
 console.log(`estudiante copia spread operator ${copiaEstOrigSpreadOp}`);
 
 ///////
+const numeros=[1,2,3,4,5];
+const numerosRepetidos=[...numeros, ...numeros,  ...numeros, ...numeros, ...numeros, ...numeros, ...numeros,];
+console.log(numerosRepetidos);
+
+// crear nuestras propias 
+// versiones no mutables de pop, push, shift, 
+// unshift con spread operator y slice
+
